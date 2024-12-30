@@ -8,15 +8,14 @@ import {
   GridItem,
   HStack,
   Icon,
-  IconButton,
   Text,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React from "react";
 import { IoIosClose } from "react-icons/io";
-import { GiSnowBottle } from "react-icons/gi";
 import Bottle from "@/Assets/bottle.jpg";
 import Image from "next/image";
 import { ImageUnder } from "@/Assets/Data";
+
 
 const Swap = ({ closeMenu }) => {
   return (
