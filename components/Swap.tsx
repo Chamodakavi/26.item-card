@@ -28,7 +28,6 @@ const Swap = ({ closeMenu }) => {
         display={"block"}
         margin={"auto"}
         marginTop={10}
-        display={"block"}
         position={"relative"}
         backdropFilter="blur(10px)"
         top={-700}
