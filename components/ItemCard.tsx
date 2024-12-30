@@ -16,7 +16,7 @@ import { MdSwapVerticalCircle } from "react-icons/md";
 import Swap from "./Swap";
 
 const ItemCard = () => {
-  const [open, setOpen] = useState(null);
+  const [open, setOpen] = useState<boolean | null>(null);
 
   const openMenu = () => {
     setOpen(true);
