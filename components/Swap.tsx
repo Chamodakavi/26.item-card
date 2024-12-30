@@ -1,5 +1,4 @@
-"use client";
-
+import React from "react";
 import {
   Box,
   Button,
@@ -10,14 +9,17 @@ import {
   Icon,
   Text,
 } from "@chakra-ui/react";
-import React from "react";
 import { IoIosClose } from "react-icons/io";
-import Bottle from "@/Assets/bottle.jpg";
 import Image from "next/image";
+import Bottle from "@/Assets/bottle.jpg";
 import { ImageUnder } from "@/Assets/Data";
 
+// Define props type
+interface SwapProps {
+  closeMenu: () => void;
+}
 
-const Swap = ({ closeMenu }) => {
+const Swap: React.FC<SwapProps> = ({ closeMenu }) => {
   return (
     <Container>
       <Box
