@@ -25,5 +25,12 @@
     "eslint": "^9",
     "eslint-config-next": "15.1.3",
     "typescript": "^5"
+  },
+  "eslintConfig": {
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "rule-name-to-disable": "off"
   }
+}
+
 }
